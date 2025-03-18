@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\class_student\\source\\repos\\Resort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\class_student\\source\\repos\\resort\\resort\\staffwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\staffwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\class_student\\source\\repos\\resort\\resort\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\class_student\\source\\repos\\resort\\resort\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\class_student\\source\\repos\\resort\\resort\\staffwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\staffwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\StaffWindow.axaml",
+              "RelativeDocumentMoniker": "Resort\\StaffWindow.axaml",
+              "ToolTip": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\StaffWindow.axaml",
+              "RelativeToolTip": "Resort\\StaffWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T09:23:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\StaffWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Resort\\StaffWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\StaffWindow.axaml.cs",
+              "RelativeToolTip": "Resort\\StaffWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:23:15.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Resort\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\MainWindow.axaml",
+              "RelativeToolTip": "Resort\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T09:08:14.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Resort\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\class_student\\source\\repos\\Resort\\Resort\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Resort\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:08:13.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
