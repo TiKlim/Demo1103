@@ -11,12 +11,16 @@ namespace Resort
     public partial class MainWindow : Window
     {
         private List<Staff> users = DataSource.Helper.dataBase.Staff.ToList();
+        HistoryLogin HistoryLogin { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+            HistoryLogin = new HistoryLogin();
             welcome.Click += Welcome_Click;
             iSeeYou.Click += ISeeYou_Click;
             update.Click += Update_Click;
+            SetData();
         }
 
         private void Update_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -47,6 +51,9 @@ namespace Resort
             string login = loginTB.Text;
             string password = passwordTB.Text;
 
+            //int id = (int)(sender as Button)?.Tag!;
+            //var stass = DataSource.Helper.dataBase.Staff.Find(id);
+
             foreach (Staff user in users)
             {
                 if (attention.IsVisible == true)
@@ -57,6 +64,14 @@ namespace Resort
                     }
                     else if (vvod.Text == captcha.Text && user.StaffLogin == login && user.StaffPassword == password && vvod.Text != null)
                     {
+                        if (HistoryLogin.IdLogin == 0)
+                        {
+                            HistoryLogin.UserLogin = user.StaffLogin;
+                            HistoryLogin.UserName += user.StaffName;
+                            DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);
+                            DataSource.Helper.dataBase.SaveChanges();
+                        }
+
                         StaffWindow staffWindow = new StaffWindow();
                         staffWindow.Show();
                         Close();
@@ -74,6 +89,14 @@ namespace Resort
                 {
                     if (user.StaffLogin == login && user.StaffPassword == password)
                     {
+                        if (HistoryLogin.IdLogin == 0)
+                        {
+                            HistoryLogin.UserLogin = user.StaffLogin;
+                            HistoryLogin.UserName += user.StaffName;
+                            DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);
+                            DataSource.Helper.dataBase.SaveChanges();
+                        }
+
                         StaffWindow staffWindow = new StaffWindow();
                         staffWindow.Show();
                         Close();
@@ -130,6 +153,11 @@ namespace Resort
             update.IsVisible = false;
             loginTB.Text = string.Empty;
             passwordTB.Text = string.Empty;
+        }
+
+        private void SetData()
+        {
+            //loginTB.Text
         }
     }
 }
