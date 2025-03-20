@@ -9,8 +9,15 @@
 		x:CompileBindings="False"
 		WindowStartupLocation="CenterScreen"
         Title="StaffWindow">
-	<Button Content="История входа"
-			Name="historyLogin"
-			HorizontalAlignment="Center"
-			VerticalAlignment="Center"/>
+	<Grid RowDefinitions="*,*,*,*">
+		
+		<Button Content="История входа"
+				Name="historyLogin"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center"
+				Background="#349C3D"
+				Grid.Row="1"/>
+		
+	</Grid>
+	
 </Window>

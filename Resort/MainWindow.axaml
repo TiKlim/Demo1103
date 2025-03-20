@@ -46,7 +46,8 @@
 				Width="200"
 				HorizontalAlignment="Center"
 				Name="update"
-				IsVisible="False">
+				IsVisible="False"
+				Background="#349C3D">
 			<TextBlock Text="Я не понимаю"
 					   HorizontalAlignment="Center"/>
 		</Button>
@@ -60,7 +61,8 @@
 				Width="200"
 				HorizontalAlignment="Center"
 				Name="welcome"
-				IsVisible="True">
+				IsVisible="True"
+				Background="#349C3D">
 			<TextBlock Text="Войти"
 					   HorizontalAlignment="Center"/>
 		</Button>

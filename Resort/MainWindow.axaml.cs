@@ -3,6 +3,7 @@ using Avalonia.Threading;
 using Resort.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -42,7 +43,7 @@ namespace Resort
 
         private void UpdateCaptcha()
         {
-            string randomText = GenerateString(3);
+            string randomText = GenerateString(4);
             captcha.Text = randomText;
         }
 
@@ -66,6 +67,10 @@ namespace Resort
                     {
                         if (HistoryLogin.IdLogin == 0)
                         {
+                            //welcome.KeyDown += (s, e) => { DateTime.Now };
+
+                            //HistoryLogin.LoginDate = welcome.DataContext; //!
+                            HistoryLogin.LoginComplete = false;
                             HistoryLogin.UserLogin = user.StaffLogin;
                             HistoryLogin.UserName += user.StaffName;
                             DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);
@@ -91,6 +96,7 @@ namespace Resort
                     {
                         if (HistoryLogin.IdLogin == 0)
                         {
+                            HistoryLogin.LoginComplete = true;
                             HistoryLogin.UserLogin = user.StaffLogin;
                             HistoryLogin.UserName += user.StaffName;
                             DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);

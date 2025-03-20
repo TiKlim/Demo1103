@@ -9,21 +9,44 @@
 		x:CompileBindings="False"
 		WindowStartupLocation="CenterScreen"
         Title="История входа">
-	<ListBox Name="historyLB">
-		<ListBox.ItemTemplate>
-			<DataTemplate>
-				<Border BorderThickness="0 0 0 1"
-						BorderBrush="Black">
-					<Grid RowDefinitions="*,*"
-						  Margin="5">
-						<TextBlock Text="{Binding UserName}"
-								   Grid.Row="0"
-								   FontWeight="Bold"/>
-						<TextBlock Text="{Binding UserLogin}"
-								   Grid.Row="1"/>
-					</Grid>
-				</Border>
-			</DataTemplate>
-		</ListBox.ItemTemplate>
-	</ListBox>
+	<Grid RowDefinitions="Auto,*">
+		<DockPanel Grid.Row="0"
+				   Margin="10"
+				   VerticalAlignment="Center">
+			<Image Source="Assets\logo.png"
+				   Height="20"/>
+			<TextBlock Text="История входа"
+					   FontSize="20"
+					   FontWeight="Bold"
+					   VerticalAlignment="Center"/>
+		</DockPanel>
+		<Button Grid.Row="0"
+				Content="Назад"
+				Name="back"
+				HorizontalAlignment="Right"
+				Margin="10"
+				Background="#349C3D"/>
+		<ListBox Name="historyLB"
+				 Grid.Row="1">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderThickness="0 0 0 1"
+							BorderBrush="Black">
+						<Grid RowDefinitions="*,*,*,*"
+							  Margin="5">
+							<TextBlock Text="{Binding UserName}"
+									   Grid.Row="0"
+									   FontWeight="Bold"/>
+							<TextBlock Text="{Binding UserLogin}"
+									   Grid.Row="1"/>
+							<TextBlock Text=""
+									   Grid.Row="2"/>
+							<TextBlock Text="{Binding CompleteLogin}"
+									   Grid.Row="3"/>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
 </Window>

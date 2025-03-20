@@ -23,20 +23,18 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Resort
-build_property.ProjectDir = C:\Users\blockchain\Desktop\Demo1103\Demo1103\Resort\
+build_property.ProjectDir = C:\Users\class_student\Desktop\demo1103\Demo1103App\Demo1103\Resort\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/blockchain/Desktop/Demo1103/Demo1103/Resort/App.axaml]
+[C:/Users/class_student/Desktop/demo1103/Demo1103App/Demo1103/Resort/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/blockchain/Desktop/Demo1103/Demo1103/Resort/HistoryLoginWindow.axaml]
+[C:/Users/class_student/Desktop/demo1103/Demo1103App/Demo1103/Resort/HistoryLoginWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/blockchain/Desktop/Demo1103/Demo1103/Resort/MainWindow.axaml]
+[C:/Users/class_student/Desktop/demo1103/Demo1103App/Demo1103/Resort/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/blockchain/Desktop/Demo1103/Demo1103/Resort/StaffWindow.axaml]
+[C:/Users/class_student/Desktop/demo1103/Demo1103App/Demo1103/Resort/StaffWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

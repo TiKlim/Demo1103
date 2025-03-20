@@ -34,7 +34,7 @@ public partial class KlimBaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=89.110.53.87:5522;Database=klim_base;Username=klim;Password=nissan");
+        => optionsBuilder.UseNpgsql("Host=89.110.53.87:5522; Database=klim_base; Username=klim; Password=nissan");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -74,6 +74,10 @@ public partial class KlimBaseContext : DbContext
             entity.Property(e => e.IdLogin)
                 .UseIdentityAlwaysColumn()
                 .HasColumnName("id_login");
+            entity.Property(e => e.LoginComplete).HasColumnName("login_complete");
+            entity.Property(e => e.LoginDate)
+                .HasColumnType("timestamp without time zone")
+                .HasColumnName("login_date");
             entity.Property(e => e.UserLogin)
                 .HasColumnType("character varying")
                 .HasColumnName("user_login");

@@ -1,36 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\historyloginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\historyloginwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\staffwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\staffwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\staffwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\staffwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\models\\historylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\models\\historylogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|c:\\users\\blockchain\\desktop\\demo1103\\demo1103\\resort\\historyloginwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0428FE8-B8FA-4BD1-B4EB-EB8B2B6A48DB}|Resort\\Resort.csproj|solutionrelative:resort\\historyloginwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\class_student\\Desktop\\demo1103\\Demo1103App\\Demo1103\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,118 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StaffWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\StaffWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Resort\\StaffWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\StaffWindow.axaml.cs",
-              "RelativeToolTip": "Resort\\StaffWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:48:09.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HistoryLoginWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\HistoryLoginWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Resort\\HistoryLoginWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\HistoryLoginWindow.axaml.cs",
-              "RelativeToolTip": "Resort\\HistoryLoginWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:40:14.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HistoryLogin.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\Models\\HistoryLogin.cs",
-              "RelativeDocumentMoniker": "Resort\\Models\\HistoryLogin.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\Models\\HistoryLogin.cs",
-              "RelativeToolTip": "Resort\\Models\\HistoryLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:34:46.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Resort\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\MainWindow.axaml.cs",
-              "RelativeToolTip": "Resort\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:03:56.099Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "dc9c92d9-a2b2-4c33-818f-4946d0f26b06",
-        "Display": 0,
-        "X": 228,
-        "Y": -9,
-        "Width": 1565,
-        "Height": 965,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "Resort\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\MainWindow.axaml",
-              "RelativeToolTip": "Resort\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T14:03:58.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HistoryLoginWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\HistoryLoginWindow.axaml",
-              "RelativeDocumentMoniker": "Resort\\HistoryLoginWindow.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\HistoryLoginWindow.axaml",
-              "RelativeToolTip": "Resort\\HistoryLoginWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T14:40:14.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StaffWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\StaffWindow.axaml",
-              "RelativeDocumentMoniker": "Resort\\StaffWindow.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\Demo1103\\Demo1103\\Resort\\StaffWindow.axaml",
-              "RelativeToolTip": "Resort\\StaffWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T14:48:20.288Z",
-              "EditorCaption": ""
-            }
-          ]
+          "SelectedChildIndex": -1,
+          "Children": []
         }
       ]
     }
