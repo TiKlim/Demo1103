@@ -14,7 +14,7 @@ public partial class HistoryLogin
     public DateTime? LoginDate { get; set; }
 
     public bool? LoginComplete { get; set; }
-
+    
     public string CompleteLogin
     {
         get

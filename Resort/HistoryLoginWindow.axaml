@@ -20,12 +20,14 @@
 					   FontWeight="Bold"
 					   VerticalAlignment="Center"/>
 		</DockPanel>
-		<Button Grid.Row="0"
-				Content="Назад"
-				Name="back"
-				HorizontalAlignment="Right"
-				Margin="10"
-				Background="#349C3D"/>
+		<DockPanel Grid.Row="0"
+		           Margin="10"
+		           HorizontalAlignment="Right">
+			<Button Content="Назад"
+			        Name="back"
+			        Margin="10"
+			        Background="#349C3D"/>
+		</DockPanel>
 		<ListBox Name="historyLB"
 				 Grid.Row="1">
 			<ListBox.ItemTemplate>

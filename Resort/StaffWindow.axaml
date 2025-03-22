@@ -9,14 +9,27 @@
 		x:CompileBindings="False"
 		WindowStartupLocation="CenterScreen"
         Title="StaffWindow">
-	<Grid RowDefinitions="*,*,*,*">
+	<Grid RowDefinitions="*,*,*,*,*,*"
+	      Name="dataGrid">
+		
+		<Image Grid.Row="1"
+		       Source="{Binding Image}"
+		       HorizontalAlignment="Center"/>
+		
+		<TextBlock Grid.Row="2"
+		           Text="{Binding StaffName}"
+		           HorizontalAlignment="Center"/>
+		
+		<TextBlock Grid.Row="3"
+		           Text="{Binding PostName}"
+		           HorizontalAlignment="Center"/>
 		
 		<Button Content="История входа"
-				Name="historyLogin"
-				HorizontalAlignment="Center"
-				VerticalAlignment="Center"
-				Background="#349C3D"
-				Grid.Row="1"/>
+		        Name="historyLogin"
+		        HorizontalAlignment="Center"
+		        VerticalAlignment="Center"
+		        Background="#349C3D"
+		        Grid.Row="4"/>
 		
 	</Grid>
 	

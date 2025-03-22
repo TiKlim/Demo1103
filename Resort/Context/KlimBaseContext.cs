@@ -158,6 +158,9 @@ public partial class KlimBaseContext : DbContext
             entity.Property(e => e.StaffId)
                 .HasColumnType("character varying")
                 .HasColumnName("staff_id");
+            entity.Property(e => e.StaffImage)
+                .HasColumnType("character varying")
+                .HasColumnName("staff_image");
             entity.Property(e => e.StaffLastLogIn)
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("staff_last_log_in");

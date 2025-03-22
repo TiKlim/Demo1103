@@ -15,6 +15,26 @@
   <ItemGroup>
     <AvaloniaResource Include="Assets\logo.png" />
     <AvaloniaResource Include="Assets\Добавить.png" />
+    <None Remove="Assets\Беляева.jpeg" />
+    <AvaloniaResource Include="Assets\Беляева.jpeg" />
+    <None Remove="Assets\Иванов.jpeg" />
+    <AvaloniaResource Include="Assets\Иванов.jpeg" />
+    <None Remove="Assets\Игнатов.jpg" />
+    <AvaloniaResource Include="Assets\Игнатов.jpg" />
+    <None Remove="Assets\Миронов.jpeg" />
+    <AvaloniaResource Include="Assets\Миронов.jpeg" />
+    <None Remove="Assets\Петров.jpeg" />
+    <AvaloniaResource Include="Assets\Петров.jpeg" />
+    <None Remove="Assets\Смирнова.jpeg" />
+    <AvaloniaResource Include="Assets\Смирнова.jpeg" />
+    <None Remove="Assets\Стрелков.jpeg" />
+    <AvaloniaResource Include="Assets\Стрелков.jpeg" />
+    <None Remove="Assets\Федоров.jpeg" />
+    <AvaloniaResource Include="Assets\Федоров.jpeg" />
+    <None Remove="Assets\Хохлов.jpeg" />
+    <AvaloniaResource Include="Assets\Хохлов.jpeg" />
+    <None Remove="Assets\Ширяев.jpeg" />
+    <AvaloniaResource Include="Assets\Ширяев.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\logo.ico" />

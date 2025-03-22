@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Resort/HistoryLoginWindow.axaml" value="Resort/Resort.csproj" />
+        <entry key="Resort/StaffWindow.axaml" value="Resort/Resort.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

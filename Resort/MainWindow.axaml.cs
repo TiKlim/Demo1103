@@ -31,13 +31,13 @@ namespace Resort
 
         private void ISeeYou_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            if (passwordTB.PasswordChar == '•')
+            if (passwordTB.PasswordChar == 'ï¿½')
             {
                 passwordTB.PasswordChar = '\0';
             }
             else
             {
-                passwordTB.PasswordChar = '•';
+                passwordTB.PasswordChar = 'ï¿½';
             }
         } 
 
@@ -55,7 +55,7 @@ namespace Resort
             //int id = (int)(sender as Button)?.Tag!;
             //var stass = DataSource.Helper.dataBase.Staff.Find(id);
 
-            foreach (Staff user in users)
+            foreach (Staff staff in users)
             {
                 if (attention.IsVisible == true)
                 {
@@ -63,7 +63,7 @@ namespace Resort
                     {
                         UpdateCaptcha();
                     }
-                    else if (vvod.Text == captcha.Text && user.StaffLogin == login && user.StaffPassword == password && vvod.Text != null)
+                    else if (vvod.Text == captcha.Text && staff.StaffLogin == login && staff.StaffPassword == password && vvod.Text != null)
                     {
                         if (HistoryLogin.IdLogin == 0)
                         {
@@ -71,17 +71,17 @@ namespace Resort
 
                             //HistoryLogin.LoginDate = welcome.DataContext; //!
                             HistoryLogin.LoginComplete = false;
-                            HistoryLogin.UserLogin = user.StaffLogin;
-                            HistoryLogin.UserName += user.StaffName;
+                            HistoryLogin.UserLogin = staff.StaffLogin;
+                            HistoryLogin.UserName += staff.StaffName;
                             DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);
                             DataSource.Helper.dataBase.SaveChanges();
                         }
 
-                        StaffWindow staffWindow = new StaffWindow();
+                        StaffWindow staffWindow = new StaffWindow(staff);
                         staffWindow.Show();
                         Close();
                     }
-                    else if (vvod.Text != captcha.Text && user.StaffLogin != login && user.StaffPassword != password && vvod.Text != null)
+                    else if (vvod.Text != captcha.Text && staff.StaffLogin != login && staff.StaffPassword != password && vvod.Text != null)
                     {
                         HideElements();
                     }
@@ -92,18 +92,18 @@ namespace Resort
                 }
                 else
                 {
-                    if (user.StaffLogin == login && user.StaffPassword == password)
+                    if (staff.StaffLogin == login && staff.StaffPassword == password)
                     {
                         if (HistoryLogin.IdLogin == 0)
                         {
                             HistoryLogin.LoginComplete = true;
-                            HistoryLogin.UserLogin = user.StaffLogin;
-                            HistoryLogin.UserName += user.StaffName;
+                            HistoryLogin.UserLogin = staff.StaffLogin;
+                            HistoryLogin.UserName += staff.StaffName;
                             DataSource.Helper.dataBase.HistoryLogins.Add(HistoryLogin!);
                             DataSource.Helper.dataBase.SaveChanges();
                         }
 
-                        StaffWindow staffWindow = new StaffWindow();
+                        StaffWindow staffWindow = new StaffWindow(staff);
                         staffWindow.Show();
                         Close();
                     }
